@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tag_awards",
+  "info": {
+    "singularName": "tag-award",
+    "pluralName": "tag-awards",
+    "displayName": "TagAward"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "awardedBy": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "awardedTo": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "tag": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tag.tag"
+    }
+  }
+}
