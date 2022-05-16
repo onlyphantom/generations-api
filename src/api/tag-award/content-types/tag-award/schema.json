@@ -4,7 +4,8 @@
   "info": {
     "singularName": "tag-award",
     "pluralName": "tag-awards",
-    "displayName": "TagAward"
+    "displayName": "TagAward",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,12 +15,12 @@
     "awardedBy": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "plugin::users-permissions.user"
+      "target": "admin::user"
     },
     "awardedTo": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "plugin::users-permissions.user"
+      "target": "admin::user"
     },
     "tag": {
       "type": "relation",

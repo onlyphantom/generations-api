@@ -38,7 +38,7 @@
     "effort": {
       "type": "integer"
     },
-    "instruction": {
+    "medium": {
       "type": "enumeration",
       "enum": [
         "article",
@@ -46,6 +46,9 @@
         "course",
         "challenge"
       ]
+    },
+    "details": {
+      "type": "text"
     }
   }
 }

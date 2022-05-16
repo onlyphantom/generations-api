@@ -15,16 +15,19 @@
     "title": {
       "type": "string"
     },
-    "addedBy": {
+    "admin_user": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "plugin::users-permissions.user"
+      "target": "admin::user"
     },
     "bookmarks": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::bookmark.bookmark",
       "mappedBy": "collections"
+    },
+    "details": {
+      "type": "richtext"
     }
   }
 }
