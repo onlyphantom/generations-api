@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "tite": {
+    "title": {
       "type": "string"
     },
     "bookmarks": {

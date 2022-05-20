@@ -28,6 +28,12 @@
     },
     "details": {
       "type": "richtext"
+    },
+    "experts": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::expert.expert",
+      "inversedBy": "collections"
     }
   }
 }
