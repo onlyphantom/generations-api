@@ -1,7 +1,23 @@
 
 # Generations API
-An internal [Supertype](https://supertype.ai) tool for our Development program. 
+An internal [Supertype](https://supertype.ai) tool for our Development program (to be rebranded to _Supertype Fellowship_). 
 
+## Usage
+Once you are authenticated, you can access all bookmarks:
+- https://generationsapi.herokuapp.com/api/bookmarks
+
+Or retrieve all collections:
+- https://generationsapi.herokuapp.com/api/collections/
+
+Or retrieve bookmarks belonging to a collection: 
+- https://generationsapi.herokuapp.com/api/collections/1/bookmarks
+
+Or retrieve collections that are within the circle of competence of any one expert: 
+- https://generationsapi.herokuapp.com/api/experts/1/collections
+
+Detailed documentation is coming soon but if you need help, reach out to:
+- [Samuel Chan | GitHub](https://github.com/onlyphantom)
+- [Aurellia Christie | GitHub](https://github.com/AurelliaChristie)
 
 ## About Strapi
 
