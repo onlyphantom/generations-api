@@ -49,6 +49,9 @@
     },
     "details": {
       "type": "richtext"
+    },
+    "opengraph": {
+      "type": "json"
     }
   }
 }
