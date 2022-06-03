@@ -4,6 +4,7 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
+      headers: ['*'],
       origin: ['fellowship.supertype.ai', 'https://thegenerations.netlify.app']
     }
   },
