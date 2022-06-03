@@ -6,8 +6,7 @@ module.exports = [
     config: {
       headers: ['*'],
       origin: [
-        "http://localhost",
-        'fellowship.supertype.ai', 'https://thegenerations.netlify.app', 'https://fellowship.supertype.ai']
+        "http://localhost:3000", 'https://thegenerations.netlify.app', 'https://fellowship.supertype.ai']
     }
   },
   'strapi::poweredBy',
