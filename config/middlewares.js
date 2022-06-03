@@ -1,7 +1,12 @@
 module.exports = [
   'strapi::errors',
   'strapi::security',
-  'strapi::cors',
+  {
+    name: 'strapi::cors',
+    config: {
+      origin: ['fellowship.supertype.ai', 'https://thegenerations.netlify.app']
+    }
+  },
   'strapi::poweredBy',
   'strapi::logger',
   'strapi::query',
