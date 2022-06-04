@@ -33,7 +33,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::expert.expert",
-      "inversedBy": "collections"
+      "mappedBy": "collections"
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "expert",
     "pluralName": "experts",
-    "displayName": "Expert"
+    "displayName": "Expert",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,19 +21,20 @@
     "email": {
       "type": "email"
     },
-    "profilePicture": {
-      "allowedTypes": [
-        "images",
-        "files"
-      ],
-      "type": "media",
-      "multiple": false
-    },
     "collections": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::collection.collection",
       "inversedBy": "experts"
+    },
+    "imageURL": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "details": {
+      "type": "richtext"
     }
   }
 }
