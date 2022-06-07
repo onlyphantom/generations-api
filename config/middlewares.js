@@ -7,6 +7,7 @@ module.exports = [
       headers: ['*'],
       origin: [
         'http://localhost:3000',
+        'http://lvh.me:3000',
         'http://localhost:1337',
         'https://thegenerations.netlify.app',
         'https://fellowship.supertype.ai',
