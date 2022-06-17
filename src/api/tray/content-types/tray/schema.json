@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trays",
+  "info": {
+    "singularName": "tray",
+    "pluralName": "trays",
+    "displayName": "Tray",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "admin::user"
+    },
+    "collection": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::collection.collection"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "requested",
+        "ongoing",
+        "completed"
+      ]
+    },
+    "expert": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::expert.expert"
+    }
+  }
+}
