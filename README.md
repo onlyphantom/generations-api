@@ -1,6 +1,6 @@
 
 # Generations API
-An internal [Supertype](https://supertype.ai) tool for our Development program (to be rebranded to _Supertype Fellowship_). 
+An internal [Supertype](https://supertype.ai) tool for our Development program (to be relaunched as _Supertype Fellowship_). 
 
 ## Usage
 Once you are authenticated, you can access all bookmarks:
@@ -8,6 +8,10 @@ Once you are authenticated, you can access all bookmarks:
 
 Or retrieve all collections:
 - https://generationsapi.herokuapp.com/api/collections/
+
+Or retrieve either one or all experts
+- https://generationsapi.herokuapp.com/api/experts/1/
+- https://generationsapi.herokuapp.com/api/experts/
 
 Or retrieve bookmarks belonging to a collection: 
 - https://generationsapi.herokuapp.com/api/collections/1/bookmarks
